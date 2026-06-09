@@ -416,6 +416,8 @@ def build_html(df: pd.DataFrame, df_fol: pd.DataFrame | None) -> Path:
   .fig-row {{ display:flex; gap:16px; flex-wrap:wrap; }}
   .fig-row figure {{ flex:1; min-width:320px; }}
 </style>
+<script data-goatcounter="https://maom.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </head><body>
 <header>
   <h1>Pixiv 統計レポート</h1>
