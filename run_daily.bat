@@ -17,7 +17,7 @@ if %errorlevel% neq 0 (
 )
 
 :: GitHub Pages へ自動デプロイ
-git add report\index.html >> logs\run.log 2>&1
+git add index.html >> logs\run.log 2>&1
 git commit -m "stats %date%" >> logs\run.log 2>&1
 git push >> logs\run.log 2>&1
 if %errorlevel% neq 0 (

@@ -475,7 +475,7 @@ def build_html(df: pd.DataFrame, df_fol: pd.DataFrame | None) -> Path:
 
     out = OUTPUT_DIR / f"report_{today}.html"
     out.write_text(html, encoding="utf-8")
-    (OUTPUT_DIR / "index.html").write_text(html, encoding="utf-8")
+    (OUTPUT_DIR.parent / "index.html").write_text(html, encoding="utf-8")
     return out
 
 
