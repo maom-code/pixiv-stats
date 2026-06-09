@@ -1,0 +1,16 @@
+# 認証情報（絶対にコミットしない）
+config.json
+session.json
+
+# 生データ・ログ（公開不要）
+data/
+logs/
+
+# 日付付きレポートと中間PNGはindex.htmlにbase64埋め込み済みなので不要
+report/report_*.html
+report/*.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
